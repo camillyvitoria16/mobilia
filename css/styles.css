@@ -1,41 +1,90 @@
-html{
+html {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: calc(12px + 0.8Vw);
 }
-a{
+
+a {
     text-decoration: none;
     color: black;
 }
 
 /* Topo */
 
-header{
+header {
     padding: 5vw 10vw 5vw 10vw;
 }
 
-header nav{
+header nav {
     display: flex;
     justify-content: space-between;
-    align-items: center ;
+    align-items: center;
 }
-header nav h1{
+
+header nav h1 {
     font-size: 2rem;
     font-weight: bold;
 }
-header nav ul{
+
+header nav ul {
     display: flex;
 }
-header nav ul li{
+
+header nav ul li {
     margin: 0 10px 0 10px;
 }
 
 /* Banner */
 
-section.banner{
-    background: #f2f0ff ;
+section.banner {
+    background: #f2f0ff;
     padding: 5vw 10vw 5vw 10vw;
     display: flex;
 }
-section.banner p.paragraforosa{
+
+section.banner p.paragraforosa {
     color: #fc027f;
+    font-weight: bold;
+    font-size: 0, 8rem;
+}
+
+section.banner h2 {
+    font-weight: bold;
+    font-size: 1.8rem;
+    padding: 1vw 0 1vw 0;
+}
+
+section.banner p {
+    color: #8a8fb9;
+    line-height: 1.5rem;
+}
+
+section.banner p button {
+    background: #fc027f;
+    color: white;
+    border: none;
+    padding: 15px 20px 15px 20px;
+    margin: 15px 30px 15px 0;
+}
+
+section.produtos {
+    padding: 5vw 10vw;
+    text-align: center;
+}
+
+section.produtos h2 {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #151875;
+
+}
+
+section.produtos ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+section.produtos ul li {
+    width: 30%;
 }
